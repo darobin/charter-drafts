@@ -189,47 +189,50 @@
 
       <section id="scope" class="scope">
         <h2>Scope</h2>
-        <p><i class="todo">What exactly is in scope, and out of scope.
-          For legal review. Be brief.</i></p>
-
-        <section id="section-out-of-scope">
-          <h3 id="out-of-scope">Out of Scope</h3>
-            <p>The following features are out of scope, and will not be addressed by this <i class="todo">Working</i> group.</p>
-
-            <ul class="out-of-scope">
-            </ul>
-        </section>
-
+        <p>
+          The following is in scope for this group:
+        </p>
+        <ul>
+          <li>
+            Definition of the user interface of choice screens, including accessibility considerations
+            and the limited set of rubrics that may be used to help people make more informed choices.
+          </li>
+          <li>
+            Definition of the process through which a browswer or search engine can become a candidate 
+            in choice screens, including the dynamics of selection.
+          </li>
+          <li>
+            The operation of a registry of eligible browsers and search engines.
+          </li>
+        </ul>
       </section>
 
       <section id="deliverables">
         <h2>Deliverables</h2>
-        <!-- 
-          - Browser Choice Screen
-          - Search Choice Screen
-          - Browser Registry
-          - Search Engine Registry
-          - note that this is a baseline, geographic regulations can impose further constraints
-         -->
-
-        <p><i class="todo">Updated document status is available on the <a href="https://www.w3.org/groups/wg/[shortname]/publications">group publication status page</a>. [or link to a page this group prefers to use]</i></p>
-
-        <p><i>Draft state</i> indicates the state of the deliverable at the time of the charter approval. <span class='todo'>Choose one:</span> <i>Expected completion</i> indicates when the deliverable is projected to become a Recommendation, or otherwise reach a stable state
-          <span class='todo'>The Working Group intends to publish the latest state of their work as Candidate Recommendation (with Snapshots) and does not intend to advance their documents to Recommendation</span>.</p>
-
+        <p>
+          <i class="todo">Updated document status is available on the 
+          <a href="https://www.w3.org/groups/wg/[shortname]/publications">group publication status page</a>. 
+          [or link to a page this group prefers to use]</i>
+        </p>
         <section id="normative">
-          <h3>
-            Normative Specifications
-          </h3>
+          <h3>Normative Specifications</h3>
           <p>
-            The <i class="todo">Working</i> Group will deliver the following W3C normative specifications:
+            The Working Group will deliver the W3C normative specifications listed below. Note that because
+            W3C is not (and should not be) in a position to preempt local regulations, these specifications 
+            are intended to provide a sensible global baseline for choice processes. Local jurisdictions
+            may tighten or loosen the constraints chosen by the group. However, our hope is to provide enough
+            of a credible baseline that it is almost always adopted as is.
           </p>
-          <p class="todo">Consider making a second list for existing specifications that the group will maintain.</p>
           <dl>
-            <dt id="web-foo" class="spec"><a href="#">Web <i class="todo">[spec name]</i></a></dt>
+            <dt id="browser-choice-screen" class="spec"><a href="#XXX">Browser Choice Screen</a></dt>
             <dd>
-              <p>This specification defines <i class="todo">[concrete description]</i>.</p>
-
+              <p>
+                This specification defines a choice screen for browsers. The choice screen displays a 
+                set of browsers from which the user can choose. Each browser has some standardized information 
+                listed, including possibly some labels drawn from the browser's registration and that 
+                describe properties that people struggle to assess for themselves (e.g. privacy properties).
+              </p>
+              <!--
               <p class="draft-status"><b>Draft state:</b> <i class="todo">[No draft | <a href="#">Use Cases and Requirements</a> | <a href="#">Editor's Draft</a> | <a href="#">Member Submission</a> | <a href="#">Adopted from WG/CG Foo</a> | <a href="#">Working Draft</a>]</i></p>
               <p class="milestone"><b>Expected completion:</b> <i class="todo">[Q1–4 yyyy]</i></p>
               <p class="todo">Per <a href="https://www.w3.org/Consortium/Process/#WGCharter">5.2.6</a>, for every Recommendation Track deliverable that continues work on a Working Draft (WD) published under any other Charter (including a predecessor group of the same name), for which there is an existing <a href='https://www.w3.org/Consortium/Process/#exclusion-draft'>Exclusion Draft</a>: </p>
@@ -237,10 +240,47 @@
               <p><b>Exclusion Draft:</b> The <span class="todo">title, stable URL, and publication date of the most recent <a href='https://www.w3.org/Consortium/Process/#exclusion-draft'>Exclusion Draft</a></span>.
               <span class="todo">Exclusion period <b>began</b>; Exclusion period <b>ended</b>.</span> <span class='todo'>(this <a href="https://www.w3.org/2004/01/pp-impl/charter-assistant?wgid=32061">charter assistant</a> helps in producing the list. use the proper <a href='https://www.w3.org/2004/01/pp-impl/'>wgid</a>)</span>
               <p><b>Exclusion Draft Charter:</b> The  <span class="todo">stable URL of the <a href='https://www.w3.org/Consortium/Process/#other-charter'>Working Group charter</a></span> under which the most recent Exclusion Draft was published.
+              -->
+            </dd>
+            <dt id="browser-registry" class="spec"><a href="#XXX">Browser Registry</a></dt>
+            <dd>
+              <p>
+                This creates a registry of browsers eligible for inclusion in the 
+                <a href="#browser-choice-screen">Browser Choice Screen</a>. Inclusion is based on a set of
+                criteria defined by the group. Note: the group may decide to set a moderate fee for registration
+                to cover the costs involved in verifying the criteria. This will not be set at a level that 
+                precludes entry by legitimate participants.
+              </p>
+              <!--
+                XXX fill out same boilerplate as above
+              -->
+            </dd>
+            <dt id="search-choice-screen" class="spec"><a href="#XXX">Search Choice Screen</a></dt>
+            <dd>
+              <p>
+                This specification defines a choice screen for search engines. The choice screen displays a 
+                set of search engines from which the user can choose. Each search engine has some standardized information 
+                listed, including possibly some labels drawn from its registration and that 
+                describe properties that people struggle to assess for themselves (e.g. privacy properties).
+              </p>
+              <!--
+                XXX fill out same boilerplate as above
+              -->
+            </dd>
+            <dt id="search-registry" class="spec"><a href="#XXX">Search Registry</a></dt>
+            <dd>
+              <p>
+                This creates a registry of search engines eligible for inclusion in the 
+                <a href="#search-choice-screen">Search Choice Screen</a>. Inclusion is based on a set of
+                criteria defined by the group. Note: the group may decide to set a moderate fee for registration
+                to cover the costs involved in verifying the criteria. This will not be set at a level that 
+                precludes entry by legitimate participants.
+              </p>
+              <!--
+                XXX fill out same boilerplate as above
+              -->
             </dd>
           </dl>
-
-
         </section>
 
         <section id="ig-other-deliverables">
@@ -271,43 +311,33 @@
         </section>
       </section>
 
-	<section id="success-criteria">
-	  <h2>Success Criteria</h2>
-
-    <!-- Testing and interop -->
-	  <p><span class='todo'>Remove this clause if the Group does not intend to move to REC:</span> In order to advance to 
-		  <a href="https://www.w3.org/Consortium/Process/#RecsPR" title="Proposed Recommendation">Proposed Recommendation</a>, each normative specification is expected to have 
-		  <a href="https://www.w3.org/Consortium/Process/#implementation-experience">at least two independent interoperable
-			  implementations</a> of every feature defined in the specification, where
-interoperability can be verified by passing open test suites, and two or
-more implementations interoperating with each other. In order to advance to
-Proposed Recommendation, each normative specification must have an open
-test suite of every feature defined in the specification.</p>
-	  <p>There should be testing plans for each specification, starting from the earliest drafts.</p>
-    <p><span class='todo'>Consider adopting a healthy testing policy, such as:</span> 
-      To promote interoperability, all changes made to specifications 
-      in Candidate Recommendation 
-      or to features that have deployed implementations
-      should have <a href='https://www.w3.org/2019/02/testing-policy.html'>tests</a>.  
-      Testing efforts should be conducted via the <a href="https://github.com/web-platform-tests/wpt">Web Platform Tests</a> project.</p>
-
-    <!-- Horizontal review -->
-
-    <p>Each specification should contain sections detailing all known security and
-      privacy implications for implementers, Web authors, and end users.</p>
-
-	  <p><i class="todo">For specifications of technologies that directly impact user experience, such as content technologies, as well as protocols and APIs which impact content: </i>
-		Each specification should contain a section on accessibility that describes the benefits and impacts, including ways specification features can be used to address them, and
-		recommendations for maximising accessibility in implementations.</p>
-
-    <!-- Design principles -->
-    <p>This <i class="todo">Working</i> Group expects to follow the
-    TAG <a href="https://www.w3.org/TR/design-principles/">Web Platform Design Principles</a>.
-    </p>
-	
-    <!-- Relevance and momentum -->
-	  <p><span class='todo'>Consider adding this clause if the Group does not intend to move to REC:</span> All new features should have expressions of interest from at least two potential implementors before being incorporated in the specification.</p>
-	</section>
+      <section id="success-criteria">
+        <h2>Success Criteria</h2>
+        <p>
+          In order to advance to 
+          <a href="https://www.w3.org/Consortium/Process/#RecsPR" title="Proposed Recommendation">Proposed Recommendation</a>, 
+          each choice screen specification is expected to demonstrate its real-world viability. Because these 
+          are not standards focused on interoperable formats or protocols, viability is assessed not
+          through a conformance test suite but by adoption. For the choice screen specifications to be ready 
+          for PR, they must be referenced normatively by two jurisdictions.
+        </p>
+        <p>
+          In order to advance to 
+          <a href="https://www.w3.org/Consortium/Process/#candidate-registry-snapshot" title="Candidate Registry Snapshot">Candidate Registry Snapshot</a>, 
+          each registry expected to demonstrate its real-world viability. Because this 
+          is not a standard focused on an interoperable format or protocol, viability is assessed not
+          through a conformance test suite but by adoption. For the registries to be considered ready, their 
+          data must be referenced normatively by two jurisdictions.
+        </p>
+        <p>
+          There should be testing plans for each specification, starting from the earliest drafts. These will 
+          likely include user testing, internationalization testing, and accessibility testing.
+        </p>
+        <p>
+          Each specification should contain sections detailing all known security,
+          privacy, and accessibility implications for implementers, Web authors, and end users.
+        </p>
+      </section>
 
       <section id="coordination">
         <h2>Coordination</h2>
