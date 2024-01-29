@@ -79,15 +79,14 @@
       </p>
 
       <div class="noprint">
-        <p class="join"><a href="https://www.w3.org/groups/wg/XXX/join">Join the Choice Screen Working Group.</a></p>
+        <p class="join"><a href="https://www.w3.org/groups/wg/[shortname]/join">Join the Choice Screen Working Group.</a></p>
       </div>
 
-      <!-- delete the GH link after AC review completed -->
-      <p style="padding: 0.5ex; border: 1px solid green"> This proposed charter is available
-      on <i class="todo"><a href="https://github.com/w3c/@@">GitHub</a>.
-
-    Feel free to raise <a href="https://github.com/w3c/@@/issues">issues</a></i>.
-          </p>
+      <p style="padding: 0.5ex; border: 1px solid green">
+        This proposed charter is available
+        on <a href="https://github.com/darobin/charter-drafts/blob/choice-screen-wg/2024/choice-screen-wg.html">GitHub</a>.
+        Feel free to raise <a href="https://github.com/darobin/charter-drafts/issues">issues</a>.
+      </p>
 
       <div id="details">
         <table class="summary-table">
@@ -96,7 +95,8 @@
               Charter Status
             </th>
             <td>
-              <i class="todo">See the <a href="https://www.w3.org/groups/wg/[shortname]/charters">group status page</A> and <a href="#history">detailed change history</a>.</i>
+              <i class="todo">See the <a href="https://www.w3.org/groups/wg/[shortname]/charters">group status page</a> 
+              and <a href="#history">detailed change history</a>.</i>
             </td>
           </tr>		
           <tr id="Duration">
@@ -128,7 +128,8 @@
               Team Contacts
             </th>
             <td>
-              <span class="todo"><a href="mailto:">[team contact name]</a></span> <i class="todo">(0.1 <abbr title="Full-Time Equivalent">FTE</abbr>)</i>
+              <span class="todo"><a href="mailto:">[team contact name]</a></span> 
+              <i class="todo">(0.1 <abbr title="Full-Time Equivalent">FTE</abbr>)</i>
             </td>
           </tr>
           <tr>
@@ -136,19 +137,54 @@
               Meeting Schedule
             </th>
             <td>
-              <strong>Teleconferences:</strong> <i class="todo">topic-specific calls may be held</i> or <i class="todo">somthing else</i>
+              <strong>Teleconferences:</strong> <i class="todo">topic-specific calls may be held</i> or 
+              <i class="todo">somthing else</i>
               <br>
-              <strong>Face-to-face:</strong> we will meet during the W3C's annual Technical Plenary week; additional face-to-face meetings may be scheduled by consent of the participants, usually no more than 3 per year.
+              <strong>Face-to-face:</strong> we will meet during the W3C's annual Technical Plenary week; 
+              additional face-to-face meetings may be scheduled by consent of the participants, usually no 
+              more than 3 per year.
             </td>
           </tr>
         </table>
 
-        <p class="issue"><b>Note:</b> The <a href="https://www.w3.org/Consortium/Process/#WGCharter">W3C Process Document</a> requires “The level of confidentiality of the group's proceedings and deliverables”; however, it does not mandate where this appears. Since all W3C Working Groups should be chartered as public, this notice has been moved from the essentials table to the <a href="#public">communication section</a>.</p>
+        <p class="issue">
+          <b>Note:</b> The <a href="https://www.w3.org/Consortium/Process/#WGCharter">W3C Process Document</a> 
+          requires “The level of confidentiality of the group's proceedings and deliverables”; however, it does 
+          not mandate where this appears. Since all W3C Working Groups should be chartered as public, this notice 
+          has been moved from the essentials table to the <a href="#public">communication section</a>.
+        </p>
       </div>
 
       <div id="background" class="background">
         <h2>Motivation and Background</h2>
-        <p><i class="todo">Background of landscape, technology, and relationship to the Web, users, developers, implementers, and industry.</i></p>
+        <p>
+          The power of defaults is a well-established force that shapes people's behavior: few users change 
+          default settings, their default browser, or their default search engine. In turn, these defaults
+          shape the web at a structural level because they have a powerful influence over which browsers
+          and which search engines people use.
+        </p>
+        <p>
+          Because defaults can be selected to favor the interests of the company that sets them rather than 
+          those of the user, a number of jurisdictions as well as some user-centric companies, are replacing
+          defaults with choice screens. A choice screen is a dialog that prompts the user to make a deliberate
+          decision as to which default should be applied. Ideally, this prompt happens rarely (perhaps only
+          once) so as not to overwhelm people with constant decisions but it presents a good occasion to
+          empower people to choose the option that best matches their preferences.
+        </p>
+        <p>
+          Unfortunately, experience shows that it is easy to produce a badly designed choice screen such that 
+          it will create other problems (e.g. favoring the richest company or the one that most readily sells
+          personal data). As the number of jurisdictions in which choice screens are mandated grows (for browsers,
+          search, or both), it becomes increasingly important to align on a recommended approach to 
+          choice screens.
+        </p>
+        <p>
+          Two facts are important. First, the web community now has real-world pragmatic experience with 
+          choice screens. This means that we have sufficient experience to inform the elaboration of a 
+          standard. And second, we can observe that the usage volume of a given browser or search engine 
+          determines how much power that browser or search engine has over the structure of the web. This means 
+          that there is an ethical necessity to make these volumes reflect user preferences.
+        </p>
       </div>
 
       <section id="scope" class="scope">
@@ -167,9 +203,14 @@
       </section>
 
       <section id="deliverables">
-        <h2>
-          Deliverables
-        </h2>
+        <h2>Deliverables</h2>
+        <!-- 
+          - Browser Choice Screen
+          - Search Choice Screen
+          - Browser Registry
+          - Search Engine Registry
+          - note that this is a baseline, geographic regulations can impose further constraints
+         -->
 
         <p><i class="todo">Updated document status is available on the <a href="https://www.w3.org/groups/wg/[shortname]/publications">group publication status page</a>. [or link to a page this group prefers to use]</i></p>
 
